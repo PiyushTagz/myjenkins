@@ -7,7 +7,7 @@ pipeline {
         stage('Git Clone') {
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'main', url: 'https://github.com/PiyushTagz/myjenkins.git'
+                git branch: 'master', url: 'https://github.com/PiyushTagz/boxfuse-sample-java-war-hello.git'
             }
         }
         stage('Build') {
